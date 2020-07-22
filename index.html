@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>uglyHTML</title>
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Unica One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="top">
-        <header>
+        <header class="font-color" id="header">
             Generic Watches Site
         </header>
-        <h3>
+        <h3 class="font-color" id="sub-header">
             Your one stop website for all things "watch"
         </h3>
-        <h3>
+        <h3 class="font-color">
             It's about time...
         </h3>
-        <img src="assets/manyWatches.png" alt="Many Watches">
+        <img src="assets/manyWatches.png" alt="Many Watches" width="540" >
     </div>
 
     <div class="all_watches_container">
 
-        <article class="watch_container">
-            <img src="assets/classicWatch.png" alt="Classic Watch">
+        <article class="watch_container" >
+            <img src="assets/classicWatch.png" alt="Classic Watch" height="200" class="watches">
             <div class="text">
 
-                <h2>
+                <h2 class="name">
                     Classic Watches
                 </h2>
 
@@ -57,11 +60,11 @@
             </div>
         </article>
         <article class="watch_container">
-            <img src="assets/mechanicalWatch.png" alt="Mechanical Watch">
+            <img src="assets/mechanicalWatch.png" alt="Mechanical Watch" height="200" class="watches">
 
             <div class="text">
 
-                <h2>
+                <h2 class="name">
                     Mechanical Watch
                 </h2>
                 <!-- Take from https://en.wikipedia.org/wiki/Mechanical_watch -->
@@ -84,11 +87,11 @@
         </article>
 
         <article class="watch_container">
-            <img src="assets/pocketWatch.png" alt="Pocket Watch">
+            <img src="assets/pocketWatch.png" alt="Pocket Watch" height="200" class="watches">
             <!-- secret #2 = E -->
-            <div class="text">
+            <div class="text" id="PocketWatch">
 
-                <h2>
+                <h2 class="name">
                     Pocket Watch
                 </h2>
                 <!-- Taken from https://en.wikipedia.org/wiki/Pocket_watch -->
@@ -113,7 +116,7 @@
 
     </div>
 
-    <footer>
+    <footer id="Footer">
         Copyright © 2018 Your Name | All rights reserved
     </footer>
 </body>
